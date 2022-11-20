@@ -1,5 +1,9 @@
 # CJMCU-232H-based JTAG, SWD, and AVR Programmer
 
+![](CJMCU-232H.jpg)
+
+![](CJMCU-FT232HQ-PROGRAMMER.png)
+
 ## Resources
 
 - [Low-cost ESP32 In-circuit Debugging](https://medium.com/@manuel.bl/low-cost-esp32-in-circuit-debugging-dbbee39e508b)
