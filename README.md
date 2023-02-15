@@ -7,7 +7,7 @@ It can also be used as an ISP programmer for AVR microcontrollers.
 
 This module might be used to program other microcontrollers, but no information about them has been published yet. 
 
-![](CJMCU-232H.jpg)
+![CJMCU-232H](https://user-images.githubusercontent.com/1549028/219136649-b83fe1e2-26ae-417c-9f38-46d55629f4f6.jpg)
 
 Any similar module/board based on FT233H/FT2232H which exposes AD0, AD1, AD1, and AD3 pins can be used for this purpose.
 
