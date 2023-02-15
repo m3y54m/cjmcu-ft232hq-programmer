@@ -9,7 +9,7 @@ This module might be used to program other microcontrollers, but no information 
 
 ![CJMCU-232H](https://user-images.githubusercontent.com/1549028/219136649-b83fe1e2-26ae-417c-9f38-46d55629f4f6.jpg)
 
-Any similar module/board based on FT233H/FT2232H which exposes AD0, AD1, AD1, and AD3 pins can be used for this purpose.
+Any similar module/board based on FT233H/FT2232H which exposes `AD0`, `AD1`, `AD1`, and `AD3` pins can be used for this purpose.
 
 ![](CJMCU-FT232HQ-PROGRAMMER.png)
 
