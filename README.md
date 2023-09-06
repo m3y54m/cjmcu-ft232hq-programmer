@@ -15,6 +15,14 @@ Any similar module/board based on FT233H/FT2232H which exposes `AD0`, `AD1`, `AD
 
 ![](CJMCU-FT232HQ-PROGRAMMER.png)
 
+### AVRDUDE
+
+![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/ef8a3db8-d489-4a2e-a0ee-c84775525ba1)
+
+![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/39646de2-7604-4e26-a589-cbb9ac1bc5b6)
+
+
+
 ## Resources
 
 - [Low-cost ESP32 In-circuit Debugging](https://medium.com/@manuel.bl/low-cost-esp32-in-circuit-debugging-dbbee39e508b)
