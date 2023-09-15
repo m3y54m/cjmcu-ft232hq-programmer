@@ -11,7 +11,7 @@ This module might be used to program other microcontrollers, but no information 
 
 Any similar module/board based on FT233H/FT2232H which exposes `AD0`, `AD1`, `AD1`, and `AD3` pins can be used for this purpose.
 
-**Note that voltage level of all I/Os is 3.3V**
+**Note that voltage level of all I/Os is 3.3V but they are 5V-tolerant**
 
 ![](CJMCU-FT232HQ-PROGRAMMER.png)
 
