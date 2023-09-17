@@ -36,7 +36,7 @@ For STM32f103C8 with 64KB of flash. Target is `board/stm32f103c8_blue_pill.cfg`.
 openocd -f interface/ftdi/ft232h-module-swd.cfg -f board/stm32f103c8_blue_pill.cfg -c init -c "reset halt" -c "flash read_bank 0 firmware.bin 0 0x10000" -c "reset" -c shutdown
 ```
 
-Write flash:
+**Write flash:**
 
 For STM32f103C8 with 64KB of flash. Target is `board/stm32f103c8_blue_pill.cfg`. Write firmware `firmware.bin` to flash.
 
@@ -64,12 +64,6 @@ debug_server =
   interface/ftdi/ft232h-module-swd.cfg
   -f
   board/stm32f103c8_blue_pill.cfg
-```
-
-Using JLink + SWD:
-
-```bash
-openocd -f interface/jlink.cfg -c "transport select swd" -f board/stm32f103c8_blue_pill.cfg
 ```
 
 ### AVRDUDE (for AVR ISP)
