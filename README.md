@@ -19,10 +19,7 @@ Any similar module/board based on FT233H/FT2232H which exposes `AD0`, `AD1`, `AD
 
 Install `WinUSB` driver for FT232H using [Zadig](https://zadig.akeo.ie/):
 
-![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/8ebb5a65-fc5d-45e3-a089-9c635e0c701a)
-
-![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/88c1b160-3ca1-4c9e-86ff-ac882d59347a)
-
+![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/73914f6c-b004-4c63-a077-9f024e4dcd16)
 
 ```bash
 openocd -f interface/ftdi/ft232h-module-swd.cfg -f board/stm32f103c8_blue_pill.cfg
@@ -70,13 +67,13 @@ debug_server =
 
 Install default driver from FTDI. If you have installed `WinUSB` or `libusb` driver for FT232H, you should revert it to defalut driver:
 
-![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/769b44e2-633e-455d-8b71-699d58a02b60)
+![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/0f4080d4-bdf3-4020-98c3-16edddfb809f)
 
-![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/1b76b404-82dc-4795-baf4-731dbf7b121c)
+![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/0be9785a-7af3-4faa-87d8-b520b9ecaef4)
 
-![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/4eaf5fbf-3a84-43d3-bc39-9f7bd1b20329)
+![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/7ecae527-7a0e-4775-9329-02bb40086053)
 
-![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/9d0e970d-a585-4761-bab1-f289c5497622)
+![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/b33eb188-fa22-41d0-aca3-1d3ce8fecd41)
 
 ![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/ef8a3db8-d489-4a2e-a0ee-c84775525ba1)
 
