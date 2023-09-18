@@ -21,11 +21,9 @@ Install `WinUSB` driver for FT232H using [Zadig](https://zadig.akeo.ie/):
 
 ![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/73914f6c-b004-4c63-a077-9f024e4dcd16)
 
-```bash
-openocd -f interface/ftdi/ft232h-module-swd.cfg -f board/stm32f103c8_blue_pill.cfg
-```
+For SWD connection use `interface/ftdi/ft232h-module-swd.cfg`, and for JTAG connection use `-f interface/jlink.cfg`.
 
-**Read flash:**
+**Example: Read STM32f103C8 (Blue-Pill board) flash:**
 
 For STM32f103C8 with 64KB of flash. Target is `board/stm32f103c8_blue_pill.cfg`. Size to read is `0x10000`. Read firmware as `firmware.bin`.
 
@@ -33,7 +31,7 @@ For STM32f103C8 with 64KB of flash. Target is `board/stm32f103c8_blue_pill.cfg`.
 openocd -f interface/ftdi/ft232h-module-swd.cfg -f board/stm32f103c8_blue_pill.cfg -c init -c "reset halt" -c "flash read_bank 0 firmware.bin 0 0x10000" -c "reset" -c shutdown
 ```
 
-**Write flash:**
+**Example: Write STM32f103C8 (Blue-Pill board) flash:**
 
 For STM32f103C8 with 64KB of flash. Target is `board/stm32f103c8_blue_pill.cfg`. Write firmware `firmware.bin` to flash.
 
