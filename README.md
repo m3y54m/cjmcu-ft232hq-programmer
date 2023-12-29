@@ -21,7 +21,7 @@ Install `WinUSB` driver for FT232H using [Zadig](https://zadig.akeo.ie/):
 
 ![image](https://github.com/m3y54m/cjmcu-ft232hq-programmer/assets/1549028/73914f6c-b004-4c63-a077-9f024e4dcd16)
 
-For SWD connection use `interface/ftdi/ft232h-module-swd.cfg`, and for JTAG connection use `-f interface/jlink.cfg`.
+For SWD connection use `interface/ftdi/ft232h-module-swd.cfg`, and for JTAG connection use `interface/jlink.cfg`.
 
 **Example: Read STM32f103C8 (Blue-Pill board) flash:**
 
