@@ -61,7 +61,7 @@ debug_server =
   board/stm32f103c8_blue_pill.cfg
 ```
 
-### AVRDUDE (for AVR ISP)
+### AVRDUDE / AVRDUDESS (for AVR ISP)
 
 Install default driver from FTDI. If you have installed `WinUSB` or `libusb` driver for FT232H, you should revert it to defalut driver:
 
